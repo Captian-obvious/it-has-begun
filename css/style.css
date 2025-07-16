@@ -19,6 +19,15 @@ div.rounded_center {
     margin: 50px auto;
     width: 80%;
 }
+div.navbar {
+    background-color: #f1b21d;
+    overflow: hidden;
+}
+img.logo {
+    float: left;
+    padding: 10px 20px;
+    height: 20px;
+}
 .topnav {
     background: rgba(255, 255, 255, 0.8);;
     overflow: hidden;
