@@ -20,12 +20,12 @@ div.rounded_center {
     width: 80%;
 }
 .topnav {
-  background: rgba(255, 255, 255, 0.8);;
-  overflow: hidden;
+    background: rgba(255, 255, 255, 0.8);;
+    overflow: hidden;
 }
 .topnav a {
     float: left;
-    color: #ffd7a3;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
