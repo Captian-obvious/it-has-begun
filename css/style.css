@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #f1b21d, #eae380);
+    background: linear-gradient(to right, #f1b21d, #eae380, #fffaee);
     color: #333;
 }
 @font-face {
@@ -19,29 +19,22 @@ div.rounded_center {
     margin: 50px auto;
     width: 80%;
 }
-/* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background: rgba(255, 255, 255, 0.8);;
   overflow: hidden;
 }
-
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #ffd7a3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-
-/* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #cecdc7;
     color: black;
 }
-
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #a7aa04;
     color: white;
