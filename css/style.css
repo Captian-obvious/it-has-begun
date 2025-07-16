@@ -1,0 +1,16 @@
+/* give the body a gradient background */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Arial, sans-serif;
+    color: #333;
+};
+.container {
+    background-color: #3498db;
+    margin: 20px auto;
+}
+.rounded {
+    border-radius: 10px;
+};
+.box {
+    display: block;
+}
