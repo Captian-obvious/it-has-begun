@@ -29,16 +29,16 @@
             </div>
             <div id="contact-form" class="rounded_center">
                 <div class="container">
-                    <form action="contact_main.asp">
+                    <form action="contact_main.asp" method="POST">
                         <label for="fname">First Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name..">
                         <label for="lname">Last Name</label>
                         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
+                        <label for="q_type">Type of Support</label>
+                        <select id="q_type" name="type">
+                            <option value="inquiry">Inquiry</option>
+                            <option value="general">General</option>
+                            <option value="help">Help</option>
                         </select>
                         <label for="subject">Subject</label>
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
