@@ -21,6 +21,26 @@
 [ WARNING ]: .-. . ... ..- .-.. - ... / .... .- ...- . / --- -.-. -.-. ..- .-. . -.. --..-- / .--. --- .-- . .-. / .... .- ... / --. .-. .- -. - . -.. --..-- / .-- .. .-.. .-.. / -.-- --- ..- / -.. .- .-. . / - --- / --. --- / ..-. ..- .-. - .... . .-. --..-- / --- .-. / .-- .. .-.. .-.. / -.-- --- ..- / .- -... .- -. -.. --- -. .-.-.-
 [ INFO ]: __RESTART_INIT()
 [ ERROR ]: V1RFWFBFUklFTUVOVF80RA==
+[-- Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b --]
+[   12.345678] init: Failed to execute /sbin/init (error -2)
+[   12.345689] init: Kernel attempted to kill init! exitcode=0x0000000b
+[   12.345700] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b
+[   12.345710] CPU: 0 PID: 1 Comm: init Not tainted 5.10.0-13-amd64 #1 Debian 5.10.106-1
+[   12.345720] Hardware name: Generic x86 machine
+[   12.345730] Call Trace:
+[   12.345740]  dump_stack+0x6d/0x83
+[   12.345750]  panic+0x101/0x2e3
+[   12.345760]  do_exit+0xa65/0xa70
+[   12.345770]  do_group_exit+0x3a/0xa0
+[   12.345780]  get_signal+0x1b3/0x8d0
+[   12.345790]  do_signal+0x34/0x6f0
+[   12.345800]  exit_to_user_mode_prepare+0x13f/0x140
+[   12.345810]  syscall_exit_to_user_mode+0x1d/0x40
+[   12.345820]  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+[   12.345830] RIP: 0033:0x7f4c8e3d2d21
+[   12.345840] Code: Bad RIP value.
+[   12.345850] RSP: 002b:00007ffcfb3c1c58 EFLAGS: 00000246
+[-- end kernel panic --]
         </pre>
     </body>
 </html>
